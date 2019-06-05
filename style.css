@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+  font-family: 'Lato', 'Microsoft JhengHei', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 100vh;
+  background: url('https://www.taiwan.net.tw/att/1/big_scenic_spots/pic_9351_12.jpg') center no-repeat;
+  -webkit-user-select: none;
+  background-size: cover;
+}
+
+header h1 {
+  padding: 0 0 50px;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 8px;
+  color: #FFFFFF;
+  margin: 0 -12px 0 0;
+  display: inline-block;
+  line-height: 1;
+  text-shadow: 2px 3px 12px #000;
+  font-weight: 700;
+}
+
+.selectbox {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+header select {
+  width: 100%;
+  height: 48px;
+  padding: 8px 11px 8px 9.5px;
+  color: #fff;
+
+  font-size: 16px;
+  line-height: 1;
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-origin: content-box;
+  background-color: rgba(0, 0, 0, 0.7);
+  outline: none;
+}
+
+.selbox {
+  position: relative;
+      max-width: 400px;
+    margin: 0 auto;
+}
+.hotbox {
+  max-width: 800px;
+  width: 78.2%;
+  margin: 50px auto 0px auto;
+  padding: 40px 0;
+  background: rgba(0, 0, 0, .6);
+  border-radius: 10px;
+}
+
+.hotbox h2 {
+  margin: 0px 0px 30px 0px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hotbox ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hotbox ul>li {
+  margin: 0px 15px;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.hotbox ul>li input {
+  width: 130px;
+  padding: 6px 0px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.hotbox ul>li input:hover {
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #212121;
+}
+
+main {
+  padding-bottom: 90px;
+  /*footer 有多高就用多高*/
+  min-height: 100%;
+}
+
+.hr {
+  width: 90%;
+  margin: 120px auto 50px auto;
+  border: 1px dashed #559AC8;
+}
+
+.title {
+  color: #212121;
+  font-size: 36px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.cover-box {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 0 30px;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.cover-box:hover .cover,
+.cover-box:focus .cover {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.cover-box:hover .cover:before,
+.cover-box:focus .cover:before {
+  display: block;
+}
+
+.cover-box:hover,
+.cover-box:focus {
+  color: #fff;
+}
+
+.cover-box .tag {
+  font-size: 12px;
+  background: #ed5e68;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  padding: 5px 12px;
+}
+
+.cover-box .about {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  border-top: none;
+  overflow: hidden;
+  z-index: 1;
+  font-size: 14px;
+}
+
+.cover-box .about h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.cover-box .about .zone {
+  font-size: 14px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.opentime,
+.address {
+  margin: 0 0 5px;
+}
+
+.mg-r {
+  margin-right: 2px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+.telephone {
+  font-family: 'Lato', sans-serif;
+}
+
+.fb {
+  background-position: 0 0;
+}
+
+footer {
+  margin: 0px auto;
+  position: relative;
+  width: 100%;
+  margin-top: -90px;
+  text-align: center;
+  background-color: #212121;
+  clear: both;
+  padding: 60px 0;
+  line-height: 2;
+}
+
+#wedneme {
+  color: #999;
+  font-size: 14px;
+}
+
+#source {
+  color: #999;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hotbox ul>li input {
+    
+  }
+  .hotbox ul>li {
+    margin: 0 0 20px;
+    width: 100%;
+  }
+  .hotbox ul>li:last-child {
+    margin-bottom: 0;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  header select {
+    width: 78.2%;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+}

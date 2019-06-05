@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>高雄旅遊資訊網</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="selectbox">
+        <h1>高雄旅遊資訊</h1>
+        <div class="selbox">
+          <form>
+            <select id="selectlist" name="AdministrativeRegion">
+              <option value="-"> -- 請選擇行政區 -- </option>
+            </select>
+          </form>
+        </div>
+    
+        <div class="hotbox">
+          <h2>熱門行政區</h2>
+          <ul>
+            <li>
+              <input type="button" value="苓雅區"></input>
+            </li>
+            <li>
+              <input type="button" value="三民區"></input>
+            </li>
+            <li>
+              <input type="button" value="新興區"></input>
+            </li>
+            <li>
+              <input type="button" value="大樹區"></input>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="title">
+        <!-- XX區 -->
+      </div>
+      <div class="container">
+        <div class="row list">
+    
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="wedneme">高雄旅遊網</div>
+      <div id="source">資料來源：高雄市政府</div>
+    </footer>
+  </body>
+
+<script src="main.js"></script>
+
+</html>
